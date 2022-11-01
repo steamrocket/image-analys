@@ -14,8 +14,8 @@ import streamlit as st
 from PIL import ImageDraw
 from PIL import ImageFont
 
-subscription_key = "4255463ee4174bfe86a7a6bb69cf4770"
-endpoint = "https://takahasji20210928.cognitiveservices.azure.com/"
+subscription_key = "b632d5855ee04ebf8d9ed06ec02688b6"
+endpoint = "https://20221101image.cognitiveservices.azure.com/"
 
 computervision_client = ComputerVisionClient(endpoint, CognitiveServicesCredentials(subscription_key))
 
